@@ -2,7 +2,7 @@ import matplotlib.pyplot as plt
 import torch
 import numpy as np
 
-from TorchTest.Utilities import *
+from Utilities import *
 
 input_shape = (512, 512, 3)
 

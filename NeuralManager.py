@@ -1,10 +1,10 @@
 #import DirectorySystem
 import argparse
-from TorchTest.TrainingAugmented import *
-from TorchTest.Utilities import file_exist, dir_exist, load_model, true_or_false, swap_axis_input
-from TorchTest.CNN import *
-from TorchTest.Validation import Validation
-from TorchTest.Prediction import Prediction
+from TrainingAugmented import *
+from Utilities import file_exist, dir_exist, load_model, true_or_false, swap_axis_input
+from CNN import *
+from Validation import Validation
+from Prediction import Prediction
 
 
 def run_system():

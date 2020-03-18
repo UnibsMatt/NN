@@ -1,7 +1,7 @@
 import shutil
-from TorchTest.BatchLoader import BatchLoader
+from BatchLoader import BatchLoader
 from torch.utils.data import DataLoader
-from TorchTest.Utilities import *
+from Utilities import *
 import torch
 
 

@@ -1,7 +1,7 @@
 import torch
-from TorchTest.Dataset import AllDataSet
+from Dataset import AllDataSet
 from torch.utils.data import DataLoader
-from TorchTest.Utilities import conf_matrix, save_mismatch, create_work_folder
+from Utilities import conf_matrix, save_mismatch, create_work_folder
 import numpy as np
 
 

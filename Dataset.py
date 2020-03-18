@@ -3,8 +3,8 @@ import os
 import numpy as np
 import h5py
 import torchvision.transforms as transforms
-from TorchTest.Utilities import data_split, safe_split, to_tensor, convert_image_list_to_h5
-from TorchTest.transormation import ToTens
+from Utilities import data_split, safe_split, to_tensor, convert_image_list_to_h5
+from transormation import ToTens
 
 
 class AllDataSet(Dataset):

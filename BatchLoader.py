@@ -2,7 +2,7 @@ from torch.utils import data
 import os
 from PIL import Image
 import numpy as np
-from TorchTest.Utilities import to_tensor
+from Utilities import to_tensor
 
 
 class BatchLoader(data.Dataset):
